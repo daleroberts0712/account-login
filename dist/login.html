@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="1045347734897-d6irt0jk400aujecc364jf93oumougk5.apps.googleusercontent.com">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,13 +18,14 @@
         <p> No account? <a href="register.html">Register here!</a></p>
 
         <Form action="forms/login.php" method="post">
-            <input type="text" name="username" placeholder="Username" class="form-control" />
-            <input type="password" name="password" placeholder="Password" class="form-control" />
+            <input type="text" name="username" placeholder="Username" class="form-control">
+            <input type="password" name="password" placeholder="Password" class="form-control">
             <Button type="submit" name="submit">LOGIN</Button>
             <div id="line" class="d-flex">
               <hr id="left"/><div id="text">OR</div><hr id="right"/>
             </div>
             <div class="fb-login-button" data-width="350px" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            <div style="margin-top: 20px; margin-left: 467px;" class="g-signin2" data-onsuccess="onSignIn" data-width="350" data-height="40" data-longtitle="true" data-theme="dark"></div>
         </Form>
 
         </section>
