@@ -1,7 +1,7 @@
 <?php
 
 //Params to connect to a database
-$dbHost = "https://daleroberts0712.github.io/account-login/";
+$dbHost = "https://daleroberts0712.github.io/account-login/login.html";
 $dbUser = "root";
 $dbPass = "";
 $dbName = "phpcourse";
